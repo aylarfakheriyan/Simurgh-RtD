@@ -1,2 +1,7 @@
-# Simurgh-RtD
-A Research through Design project investigating immersive experiences for transmitting intangible cultural heritage through Virtual Reality.
+# Simurgh
+
+A Research through Design project investigating how immersive Virtual Reality experiences can support the transmission of intangible cultural heritage.
+
+---
+
+🚧 This repository is currently under development.
