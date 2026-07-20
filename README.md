@@ -1,5 +1,5 @@
 # Simurgh
-
+![Simurgh Hero](https://github.com/aylarfakheriyan/Simurgh-RtD/blob/main/hero.png)
 > A Research through Design project investigating how immersive Virtual Reality experiences can support the transmission of intangible cultural heritage.
 
 ---
