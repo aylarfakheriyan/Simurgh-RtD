@@ -91,6 +91,18 @@ This repository will gradually include:
 
 ## Related Links
 
-**Behance Case Study** *(Coming Soon)*
+🎨 Behance Case Study
 
-**ArtsIT 2026 Paper** *(Under Review)*
+https://www.behance.net/gallery/253057297/Simurgh-Interactive-VR-Experience
+
+📄 Conference Paper
+
+Submitted to ArtsIT 2026 (Under Review)
+
+---
+
+## Interactive Prototype
+
+🎥 Vimeo Demo
+
+https://vimeo.com/1211521489
