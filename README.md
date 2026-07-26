@@ -10,7 +10,7 @@ Immersive Virtual Reality Experience for Digital Cultural Heritage
 
 ---
 
-## Project Overview
+# Project Overview
 
 | Project | Simurgh |
 |---------|---------|
@@ -21,21 +21,21 @@ Immersive Virtual Reality Experience for Digital Cultural Heritage
 
 ---
 
-## Research Question
+# Research Question
 
 **How can immersive Virtual Reality experiences support the transmission of intangible cultural heritage?**
 
 ---
 
-## Project Status
+# Project Status
 
 **Conference Paper:** Submitted to ArtsIT 2026 *(Under Review)*
 
-This repository documents the ongoing research, design process, and prototype development of the Simurgh project.
+This repository documents the ongoing research, design process, prototype development, and research outputs of the Simurgh project.
 
 ---
 
-## Research Overview
+# Research Overview
 
 For centuries, the Simurgh has existed through Persian literature, miniature paintings, architecture, and collective imagination.
 
@@ -45,64 +45,146 @@ Using the Simurgh as a case study, the project combines **Research through Desig
 
 ---
 
-## Research Methods
+# Research Methods
 
 - Research through Design (RtD)
 - Practice-Based Research (PBR)
 - Cultural Analysis
 - Interactive VR Prototyping
-- User Evaluation
+- Qualitative User Evaluation
 
 ---
 
-## Current Outputs
+# Research Contribution
+
+This project contributes a **Research through Design framework** for translating mythological heritage into immersive interactive experiences.
+
+Rather than treating Virtual Reality solely as a technology for digital reconstruction or visualization, the proposed approach integrates:
+
+- Cultural analysis
+- Character design
+- Interactive VR development
+- Qualitative user evaluation
+
+within a unified RtD workflow for designing digital cultural heritage experiences.
+
+The project demonstrates how immersive interaction can communicate symbolic meaning, narrative identity, and cultural values through embodied cultural experience.
+
+---
+
+# Prototype Features
+
+Current prototype includes:
+
+- Interactive Virtual Reality environment
+- Real-time character interaction
+- Environmental storytelling
+- Narrative-based cultural experience
+- Spatial interaction
+- Immersive audiovisual presentation
+
+---
+
+# Evaluation
+
+The prototype was evaluated through qualitative user sessions focusing on:
+
+- Usability
+- User engagement
+- Immersion
+- Cultural understanding
+- Overall experience
+
+The evaluation informed iterative refinement of the research prototype and contributed to the ongoing development of the project.
+
+---
+
+# Research Perspective
+
+Rather than asking **how Virtual Reality can visualize cultural heritage**, this project explores **how immersive experiences can actively participate in the transmission, interpretation, and continued evolution of cultural knowledge.**
+
+---
+
+# Technology
+
+- Unity
+- Blender
+- XR Interaction Toolkit
+- OpenXR
+- C#
+- Git & GitHub
+
+---
+
+# Current Outputs
 
 - Interactive VR Prototype
 - Conference paper submitted to ArtsIT 2026
-- Research documentation (ongoing)
+- Research documentation
+- Research repository
 
 ---
 
-## Keywords
+# Keywords
 
-- Virtual Reality
 - Research through Design
 - Practice-Based Research
+- Human-Centred Design
+- Virtual Reality
 - Digital Cultural Heritage
 - Immersive Experiences
-- Human-Centred Design
-- User Experience
+- Interactive Systems
+- Cultural Transmission
 - Cultural Engagement
+- User Experience
 
 ---
 
-## Repository Roadmap
+# Repository Roadmap
 
 This repository will gradually include:
 
-- Project documentation
+- Research documentation
 - Design process
-- Prototype development
-- Research reflections
-- Media assets
+- Prototype architecture
+- Unity project
+- Design reflections
+- User evaluation
 - Publications
+- Media assets
 
 ---
 
-## Related Links
+# Related Links
 
-🎨 Behance Case Study
+## Research Case Study
+
+Behance
 
 https://www.behance.net/gallery/253057297/Simurgh-Interactive-VR-Experience
-
-📄 Conference Paper
-
-Submitted to ArtsIT 2026 (Under Review)
 
 ---
 
 ## Interactive Prototype
 
-🎥 Vimeo Demo
+Vimeo
 
 https://vimeo.com/1211521489
+
+---
+
+## Publication
+
+Design and Evaluation of an Interactive Virtual Reality Experience for Transmitting Intangible Cultural Heritage: A Case Study of the Simurgh Myth
+
+Submitted to ArtsIT 2026 *(Under Review)*
+
+---
+
+## Citation
+
+Citation information will be added following the publication process.
+
+---
+
+*This repository is actively maintained as part of an ongoing Research through Design investigation into immersive experiences for digital cultural heritage.*
