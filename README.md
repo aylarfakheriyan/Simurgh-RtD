@@ -4,7 +4,7 @@
 
 An immersive Virtual Reality experience exploring how interactive systems can create meaningful encounters with intangible cultural heritage through embodiment, narrative, and digital experience design.
 
-![Simurgh Interactive VR Experience by Aylar Fakherian](https://raw.githubusercontent.com/aylarfakheriyan/Simurgh-RtD/main/hero.png)
+![Simurgh Interactive VR Experience by Aylar Fakherian](simurgh-interactive-vr-experience.png)
 
 > Simurgh is a Research through Design project investigating how immersive Virtual Reality experiences can transform intangible cultural heritage from something that is observed into something that can be encountered, interpreted, and experienced.
 
