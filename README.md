@@ -187,3 +187,4 @@ Citation information will be added following the publication process.
 ---
 
 *This repository is actively maintained as part of an ongoing Research through Design investigation into immersive experiences, XR, and digital cultural heritage.*
+<!-- GitHub Pages refresh -->
