@@ -1,29 +1,30 @@
-# SIMURGH
+# Simurgh — Interactive VR Experience for Digital Cultural Heritage
 
-### Research through Design
+### Research through Design Investigation
 
-Immersive Virtual Reality Experience for Digital Cultural Heritage
+An immersive Virtual Reality experience exploring how interactive systems can create meaningful encounters with intangible cultural heritage through embodiment, narrative, and digital experience design.
 
-![Simurgh Hero](https://raw.githubusercontent.com/aylarfakheriyan/Simurgh-RtD/main/hero.png)
+![Simurgh Interactive VR Experience by Aylar Fakherian](https://raw.githubusercontent.com/aylarfakheriyan/Simurgh-RtD/main/hero.png)
 
-> A Research through Design project exploring how immersive Virtual Reality experiences can transform intangible cultural heritage from something that is observed into something that is directly experienced.
+> Simurgh is a Research through Design project investigating how immersive Virtual Reality experiences can transform intangible cultural heritage from something that is observed into something that can be encountered, interpreted, and experienced.
 
 ---
 
 # Project Overview
 
-| Project | Simurgh |
-|---------|---------|
+| Category | Description |
+|---|---|
+| Project | Simurgh — Interactive VR Experience |
 | Research Approach | Research through Design (RtD) |
+| Research Domain | Digital Cultural Heritage |
 | Medium | Virtual Reality (Unity + Blender) |
-| Research Area | Digital Cultural Heritage |
 | Status | Prototype · Conference Paper Under Review |
 
 ---
 
 # Research Question
 
-**How can immersive Virtual Reality experiences support the transmission of intangible cultural heritage?**
+**How can immersive Virtual Reality experiences support meaningful encounters with intangible cultural heritage?**
 
 ---
 
@@ -31,77 +32,83 @@ Immersive Virtual Reality Experience for Digital Cultural Heritage
 
 **Conference Paper:** Submitted to ArtsIT 2026 *(Under Review)*
 
-This repository documents the ongoing research, design process, prototype development, and research outputs of the Simurgh project.
+This repository documents the research process, design iterations, prototype development, and research outputs of the Simurgh project.
 
 ---
 
-# Research Overview
+# Research Context
 
-For centuries, the Simurgh has existed through Persian literature, miniature paintings, architecture, and collective imagination.
+The Simurgh has existed for centuries across Persian literature, miniature painting, architecture, and collective imagination.
 
-Rather than recreating a mythical creature, this project investigates whether immersive interaction can offer a new way of encountering cultural narratives.
+Rather than attempting to digitally reconstruct or represent a mythical creature, this project explores how immersive interaction can create new ways of engaging with cultural narratives.
 
-Using the Simurgh as a case study, the project combines **Research through Design (RtD)** and **Practice-Based Research (PBR)** to explore how culturally informed immersive experiences can deepen engagement with intangible cultural heritage.
+Using the Simurgh as a case study, the project applies **Research through Design (RtD)** and **Practice-Based Research (PBR)** approaches to investigate how culturally informed VR experiences can shape interpretation, engagement, and embodied interaction.
 
 ---
 
-# Research Methods
+# Research Approach
+
+The project combines:
 
 - Research through Design (RtD)
 - Practice-Based Research (PBR)
-- Cultural Analysis
-- Interactive VR Prototyping
-- Qualitative User Evaluation
+- Cultural narrative analysis
+- Character and environment design
+- Interactive VR prototyping
+- Qualitative experience evaluation
 
 ---
 
 # Research Contribution
 
-This project contributes a **Research through Design framework** for translating mythological heritage into immersive interactive experiences.
-
-Rather than treating Virtual Reality solely as a technology for digital reconstruction or visualization, the proposed approach integrates:
+This project investigates an RtD approach for designing immersive cultural experiences by integrating:
 
 - Cultural analysis
+- Narrative interpretation
 - Character design
-- Interactive VR development
-- Qualitative user evaluation
+- Interactive system development
+- User experience evaluation
 
-within a unified RtD workflow for designing digital cultural heritage experiences.
-
-The project demonstrates how immersive interaction can communicate symbolic meaning, narrative identity, and cultural values through embodied cultural experience.
+The research explores how Virtual Reality can move beyond passive visualization of heritage and support embodied encounters with symbolic meanings, cultural narratives, and collective imagination.
 
 ---
 
 # Prototype Features
 
-Current prototype includes:
+The current prototype explores:
 
 - Interactive Virtual Reality environment
-- Real-time character interaction
+- Narrative-driven exploration
 - Environmental storytelling
-- Narrative-based cultural experience
+- Character-based cultural interaction
 - Spatial interaction
-- Immersive audiovisual presentation
+- Immersive audiovisual experience
 
 ---
 
 # Evaluation
 
-The prototype was evaluated through qualitative user sessions focusing on:
+The prototype was explored through qualitative user sessions focusing on:
 
-- Usability
 - User engagement
-- Immersion
-- Cultural understanding
+- Sense of immersion
+- Interaction experience
+- Cultural interpretation
 - Overall experience
 
-The evaluation informed iterative refinement of the research prototype and contributed to the ongoing development of the project.
+Insights from evaluation informed iterative refinement of the research prototype.
 
 ---
 
 # Research Perspective
 
-Rather than asking **how Virtual Reality can visualize cultural heritage**, this project explores **how immersive experiences can actively participate in the transmission, interpretation, and continued evolution of cultural knowledge.**
+Rather than asking:
+
+> How can Virtual Reality visualize cultural heritage?
+
+This project explores:
+
+> How can immersive experiences participate in the interpretation, engagement, and continued evolution of cultural knowledge?
 
 ---
 
@@ -121,35 +128,27 @@ Rather than asking **how Virtual Reality can visualize cultural heritage**, this
 - Interactive VR Prototype
 - Conference paper submitted to ArtsIT 2026
 - Research documentation
-- Research repository
+- Design iterations
+- Prototype development archive
 
 ---
 
 # Keywords
 
-- Research through Design
-- Practice-Based Research
-- Human-Centred Design
-- Virtual Reality
-- Digital Cultural Heritage
-- Immersive Experiences
-- Interactive Systems
-- Cultural Transmission
-- Cultural Engagement
-- User Experience
+Research through Design · Practice-Based Research · Human-Centred Design · Virtual Reality · XR · Digital Cultural Heritage · Immersive Experiences · Interactive Systems · Cultural Engagement · User Experience
 
 ---
 
 # Repository Roadmap
 
-This repository will gradually include:
+Future updates will include:
 
 - Research documentation
 - Design process
 - Prototype architecture
-- Unity project
+- Unity project files
 - Design reflections
-- User evaluation
+- Evaluation insights
 - Publications
 - Media assets
 
@@ -159,7 +158,7 @@ This repository will gradually include:
 
 ## Research Case Study
 
-Behance
+Behance:
 
 https://www.behance.net/gallery/253057297/Simurgh-Interactive-VR-Experience
 
@@ -167,7 +166,7 @@ https://www.behance.net/gallery/253057297/Simurgh-Interactive-VR-Experience
 
 ## Interactive Prototype
 
-Vimeo
+Vimeo:
 
 https://vimeo.com/1211521489
 
@@ -175,16 +174,16 @@ https://vimeo.com/1211521489
 
 ## Publication
 
-Design and Evaluation of an Interactive Virtual Reality Experience for Transmitting Intangible Cultural Heritage: A Case Study of the Simurgh Myth
+**Design and Evaluation of an Interactive Virtual Reality Experience for Transmitting Intangible Cultural Heritage: A Case Study of the Simurgh Myth**
 
 Submitted to ArtsIT 2026 *(Under Review)*
 
 ---
 
-## Citation
+# Citation
 
 Citation information will be added following the publication process.
 
 ---
 
-*This repository is actively maintained as part of an ongoing Research through Design investigation into immersive experiences for digital cultural heritage.*
+*This repository is actively maintained as part of an ongoing Research through Design investigation into immersive experiences, XR, and digital cultural heritage.*
