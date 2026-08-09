@@ -1,5 +1,5 @@
 # Simurgh — Interactive VR Experience for Digital Cultural Heritage
-
+![Simurgh Interactive VR Experience by Aylar Fakherian](simurgh-interactive-vr-experience-by-aylar-fakherian.png)
 ### Research through Design Investigation
 
 An immersive Virtual Reality experience by **Aylar Fakherian** exploring how interactive systems can create meaningful encounters with intangible cultural heritage through embodiment, narrative, and digital experience design.
