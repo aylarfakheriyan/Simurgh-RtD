@@ -6,16 +6,18 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Simurgh — Interactive VR Experience | Aylar Fakherian</title>
+  <title>
+    Simurgh — Interactive VR Experience | Aylar Fakherian
+  </title>
 
   <meta
     name="description"
-    content="Simurgh is a Research through Design investigation by Aylar Fakherian exploring immersive Virtual Reality experiences for Digital Cultural Heritage, embodied interaction, and cultural narratives."
+    content="Simurgh is a Research through Design and Practice-Based Research project by Aylar Fakherian investigating Virtual Reality as a medium for communicating intangible cultural heritage through immersive interactive experiences."
   >
 
   <meta
     name="keywords"
-    content="Aylar Fakherian, Simurgh, Interactive VR Experience, Virtual Reality, XR, Research through Design, Digital Cultural Heritage, Immersive Experience, Embodied Interaction, Human-Centred Design"
+    content="Aylar Fakherian, Simurgh, Interactive VR Experience, Virtual Reality, Cultural Transmission, Intangible Cultural Heritage, Immersive Media, Research through Design, Practice-Based Research, Persian Mythology, XR, Unity"
   >
 
   <meta name="author" content="Aylar Fakherian">
@@ -26,11 +28,34 @@
     content="g14jzEKq8l_ZRjvf_O7y236-1r0MkT2d7XwhH6N3zEQ"
   >
 
-  <!-- Canonical -->
   <link
     rel="canonical"
     href="https://aylarfakheriyan.github.io/Simurgh-RtD/"
   >
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Simurgh — Interactive VR Experience",
+    "creator": {
+      "@type": "Person",
+      "name": "Aylar Fakherian"
+    },
+    "image": "https://aylarfakheriyan.github.io/Simurgh-RtD/simurgh-interactive-vr-experience-by-aylar-fakherian.png",
+    "description": "Research through Design and Practice-Based Research project by Aylar Fakherian investigating Virtual Reality as a medium for communicating intangible cultural heritage.",
+    "keywords": [
+      "Virtual Reality",
+      "Cultural Transmission",
+      "Intangible Cultural Heritage",
+      "Immersive Media",
+      "Research through Design",
+      "Practice-Based Research",
+      "Persian Mythology"
+    ]
+  }
+  </script>
 
   <!-- Open Graph -->
   <meta
@@ -40,7 +65,7 @@
 
   <meta
     property="og:description"
-    content="A Research through Design investigation exploring immersive Virtual Reality experiences for Digital Cultural Heritage."
+    content="A Research through Design and Practice-Based Research investigation of Virtual Reality for communicating intangible cultural heritage through the Simurgh myth."
   >
 
   <meta
@@ -65,7 +90,7 @@
 
   <meta
     name="twitter:description"
-    content="Research through Design investigation exploring immersive VR experiences and Digital Cultural Heritage."
+    content="Research through Design investigation of Virtual Reality for communicating intangible cultural heritage through the Simurgh myth."
   >
 
   <meta
@@ -73,43 +98,8 @@
     content="https://aylarfakheriyan.github.io/Simurgh-RtD/simurgh-interactive-vr-experience-by-aylar-fakherian.png"
   >
 
-  <!-- Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "CreativeWork",
-    "name": "Simurgh — Interactive VR Experience",
-    "creator": {
-      "@type": "Person",
-      "name": "Aylar Fakherian",
-      "url": "https://www.linkedin.com/in/aylarfakherian/"
-    },
-    "image": "https://aylarfakheriyan.github.io/Simurgh-RtD/simurgh-interactive-vr-experience-by-aylar-fakherian.png",
-    "description": "Research through Design investigation by Aylar Fakherian exploring immersive Virtual Reality experiences for Digital Cultural Heritage, embodied interaction, and cultural narratives.",
-    "keywords": [
-      "Research through Design",
-      "Virtual Reality",
-      "XR",
-      "Digital Cultural Heritage",
-      "Embodied Interaction",
-      "Human-Centred Design"
-    ]
-  }
-  </script>
 
   <style>
-
-    :root {
-      --bg: #000000;
-      --panel: #080808;
-      --panel-2: #0d0d0d;
-      --line: #242424;
-      --text: #f4f4f4;
-      --muted: #929292;
-      --soft: #bdbdbd;
-      --accent: #0b4cc4;
-      --accent-hover: #155fd8;
-    }
 
     * {
       box-sizing: border-box;
@@ -121,244 +111,179 @@
 
     body {
       margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family:
-        Inter,
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Roboto,
-        Helvetica,
-        Arial,
-        sans-serif;
-      line-height: 1.6;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: none;
+      padding: 0;
+      background: #000;
+      color: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
     }
 
     .container {
-      width: min(1120px, calc(100% - 40px));
+      width: min(1100px, 92%);
       margin: 0 auto;
+      padding: 35px 0 100px;
     }
+
 
     /* =========================
-       NAVIGATION
-    ========================= */
+       TOP NAVIGATION
+       ========================= */
 
-    nav {
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      border-bottom: 1px solid rgba(255,255,255,0.08);
-      background: rgba(0,0,0,0.88);
-      backdrop-filter: blur(14px);
-    }
-
-    .nav-inner {
-      min-height: 68px;
+    .top-nav {
       display: flex;
       align-items: center;
       justify-content: space-between;
+      padding: 0 0 35px;
+      margin-bottom: 35px;
+      border-bottom: 1px solid #222;
     }
 
     .brand {
-      font-weight: 800;
-      letter-spacing: 0.12em;
-      font-size: 14px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.05rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
     }
 
     .nav-links {
       display: flex;
       align-items: center;
-      gap: 26px;
-      color: var(--muted);
-      font-size: 14px;
+      gap: 28px;
     }
 
     .nav-links a {
-      transition: color 0.18s ease;
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: color 0.2s ease;
     }
 
     .nav-links a:hover {
-      color: var(--text);
+      color: #0B4CC4;
     }
 
-    .nav-links .accent-link {
-      color: var(--accent);
-      font-weight: 600;
-    }
-
-    .nav-links .accent-link:hover {
-      color: var(--accent-hover);
-    }
 
     /* =========================
-       HERO
-    ========================= */
+       HEADER
+       ========================= */
 
-    .hero {
-      padding: 80px 0 90px;
+    header {
+      text-align: center;
+      margin-bottom: 75px;
     }
 
-    .hero-image {
-      width: 100%;
-      max-width: 1120px;
+    header img {
       display: block;
-      margin: 0 auto 55px;
-    }
-
-    .eyebrow {
-      display: inline-flex;
-      align-items: center;
-      gap: 9px;
-      color: #b8b8b8;
-      font-size: 13px;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      margin-bottom: 22px;
-    }
-
-    .dot {
-      width: 7px;
-      height: 7px;
-      border-radius: 50%;
-      background: var(--accent);
-      box-shadow: 0 0 18px rgba(11,76,196,0.8);
+      width: 100%;
+      max-width: 1100px;
+      height: auto;
+      margin: 0 auto 45px;
     }
 
     h1 {
-      max-width: 900px;
-      margin: 0;
-      font-size: clamp(44px, 7vw, 82px);
-      line-height: 0.98;
-      letter-spacing: -0.045em;
+      margin: 0 0 15px;
+      font-size: clamp(2rem, 5vw, 4rem);
+      line-height: 1.15;
+      font-weight: 700;
     }
 
-    .hero-title-accent {
-      color: var(--accent);
+    .subtitle {
+      color: #aaa;
+      font-size: 1.15rem;
+      margin: 0 auto;
+      max-width: 800px;
     }
 
-    .hero-subtitle {
-      max-width: 760px;
-      margin: 30px 0 0;
-      color: #b5b5b5;
-      font-size: clamp(18px, 2.2vw, 23px);
-      line-height: 1.55;
-    }
-
-    .hero-meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 30px;
-    }
-
-    .tag {
-      border: 1px solid var(--line);
-      background: var(--panel);
-      padding: 7px 11px;
-      border-radius: 999px;
-      color: #b8b8b8;
-      font-size: 13px;
-    }
 
     /* =========================
-       CONTENT
-    ========================= */
+       GENERAL CONTENT
+       ========================= */
 
-    section.content-section {
-      padding: 90px 0;
-      border-top: 1px solid rgba(255,255,255,0.07);
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: 0.8fr 1.2fr;
-      gap: 70px;
-    }
-
-    .section-label {
-      color: var(--accent);
-      font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
-      font-weight: 800;
+    section {
+      margin-bottom: 70px;
     }
 
     h2 {
-      margin: 12px 0 20px;
-      font-size: clamp(30px, 4vw, 48px);
-      line-height: 1.05;
-      letter-spacing: -0.03em;
+      font-size: 1.8rem;
+      margin: 0 0 25px;
+      line-height: 1.3;
     }
 
     h3 {
-      font-size: 20px;
-      margin-bottom: 12px;
+      font-size: 1.25rem;
+      margin: 0 0 15px;
     }
 
     p {
-      color: #b5b5b5;
-      font-size: 17px;
+      color: #ddd;
+      max-width: 900px;
     }
 
     strong {
-      color: var(--text);
+      color: #fff;
+    }
+
+    a {
+      color: #fff;
+    }
+
+    a:hover {
+      opacity: 0.75;
     }
 
     .intro {
-      font-size: 21px;
-      line-height: 1.65;
-      color: #d0d0d0;
+      font-size: 1.2rem;
+      max-width: 900px;
     }
 
-    .research-question {
-      border-left: 3px solid var(--accent);
-      padding-left: 25px;
-      margin: 30px 0;
-      font-size: 21px;
-      max-width: 900px;
-      color: #dedede;
-    }
 
     /* =========================
-       PROJECT OVERVIEW
-    ========================= */
+       RESEARCH QUESTION
+       ========================= */
+
+    .research-question {
+      border-left: 3px solid #0B4CC4;
+      padding-left: 25px;
+      margin: 30px 0;
+      font-size: 1.3rem;
+      max-width: 900px;
+    }
+
+
+    /* =========================
+       PROJECT INFORMATION
+       ========================= */
 
     .meta {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 12px;
+      gap: 20px;
       margin-top: 30px;
     }
 
     .meta-card {
-      border: 1px solid var(--line);
-      padding: 24px;
-      background: var(--panel);
-      border-radius: 16px;
+      border: 1px solid #333;
+      padding: 25px;
+      background: #080808;
     }
 
     .meta-card strong {
       display: block;
       margin-bottom: 8px;
-      font-size: 11px;
+      font-size: 0.9rem;
       text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: var(--muted);
+      letter-spacing: 0.08em;
+      color: #0B4CC4;
     }
+
 
     /* =========================
        VIDEO
-    ========================= */
+       ========================= */
 
     .video-section {
-      padding: 90px 0;
-      border-top: 1px solid rgba(255,255,255,0.07);
+      margin-top: 50px;
     }
 
     .video-wrapper {
@@ -366,9 +291,7 @@
       width: 100%;
       aspect-ratio: 16 / 9;
       overflow: hidden;
-      background: #080808;
-      border: 1px solid var(--line);
-      border-radius: 18px;
+      background: #111;
       margin-top: 25px;
     }
 
@@ -381,114 +304,124 @@
     }
 
     .video-description {
-      color: var(--muted);
+      color: #888;
       margin-top: 15px;
-      font-size: 14px;
     }
+
 
     /* =========================
        LINKS
-    ========================= */
+       ========================= */
 
     .links {
       display: flex;
       flex-wrap: wrap;
-      gap: 12px;
+      gap: 15px;
       margin-top: 25px;
     }
 
     .link-card {
-      border: 1px solid var(--line);
-      padding: 15px 20px;
-      background: var(--panel);
-      border-radius: 12px;
-      transition: 0.18s ease;
+      border: 1px solid #333;
+      padding: 16px 22px;
+      background: #080808;
+      transition:
+        border-color 0.2s ease,
+        transform 0.2s ease;
     }
 
     .link-card:hover {
-      border-color: #3b3b3b;
-      transform: translateY(-1px);
+      border-color: #0B4CC4;
+      transform: translateY(-2px);
     }
 
     .link-card a {
-      color: #d0d0d0;
+      color: #fff;
+      text-decoration: none;
     }
 
-    .link-card a:hover {
-      color: white;
-    }
+
+    /* =========================
+       KEYWORDS
+       ========================= */
 
     .keywords {
-      color: var(--muted);
-      font-size: 15px;
+      color: #999;
+      font-size: 0.95rem;
     }
+
 
     /* =========================
        FOOTER
-    ========================= */
+       ========================= */
 
     footer {
-      padding: 50px 0 70px;
-      border-top: 1px solid rgba(255,255,255,0.07);
-      color: var(--muted);
-      font-size: 13px;
+      border-top: 1px solid #222;
+      padding-top: 35px;
+      margin-top: 80px;
+      color: #777;
+      font-size: 0.9rem;
     }
 
-    .footer-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      margin-top: 15px;
+    footer p {
+      color: #777;
     }
 
-    .footer-links a:hover {
-      color: white;
-    }
 
     /* =========================
        MOBILE
-    ========================= */
+       ========================= */
 
-    @media (max-width: 760px) {
+    @media (max-width: 700px) {
 
       .container {
-        width: min(100% - 28px, 1120px);
+        width: 90%;
+        padding-top: 25px;
+      }
+
+      .top-nav {
+        align-items: flex-start;
+        gap: 20px;
       }
 
       .nav-links {
-        gap: 14px;
-        font-size: 12px;
+        gap: 16px;
+        flex-wrap: wrap;
+        justify-content: flex-end;
       }
 
-      .hero {
-        padding-top: 55px;
+      .nav-links a {
+        font-size: 0.85rem;
       }
 
-      .hero-image {
-        margin-bottom: 40px;
+      header {
+        margin-bottom: 50px;
       }
 
-      .grid {
-        grid-template-columns: 1fr;
-        gap: 30px;
+      header img {
+        margin-bottom: 30px;
       }
 
       .meta {
         grid-template-columns: 1fr;
       }
 
-      section.content-section,
-      .video-section {
-        padding: 65px 0;
+      section {
+        margin-bottom: 55px;
+      }
+
+      h2 {
+        font-size: 1.5rem;
       }
 
       .intro {
-        font-size: 18px;
+        font-size: 1.05rem;
       }
 
       .research-question {
-        font-size: 18px;
+        font-size: 1.1rem;
+        padding-left: 18px;
       }
+
     }
 
   </style>
@@ -498,15 +431,17 @@
 
 <body>
 
-  <!-- =========================
-       NAVIGATION
-  ========================= -->
+  <main class="container">
 
-  <nav>
 
-    <div class="container nav-inner">
+    <!-- Top Navigation -->
 
-      <a class="brand" href="#">
+    <nav class="top-nav">
+
+      <a
+        class="brand"
+        href="https://aylarfakheriyan.github.io/Simurgh-RtD/"
+      >
         SIMURGH
       </a>
 
@@ -516,7 +451,6 @@
           href="https://www.behance.net/gallery/253057297/04_Simurgh-Interactive-VR-Experience"
           target="_blank"
           rel="noopener"
-          class="accent-link"
         >
           Visuals
         </a>
@@ -539,109 +473,95 @@
 
       </div>
 
-    </div>
-
-  </nav>
+    </nav>
 
 
-  <main>
+    <!-- Header -->
 
+    <header>
 
-    <!-- =========================
-         HERO
-    ========================= -->
+      <img
+        src="simurgh-interactive-vr-experience-by-aylar-fakherian.png"
+        alt="Simurgh — Interactive VR Experience by Aylar Fakherian"
+      >
 
-    <header class="hero">
+      <h1>
+        Simurgh — Interactive VR Experience
+      </h1>
 
-      <div class="container">
-
-        <img
-          class="hero-image"
-          src="simurgh-interactive-vr-experience-by-aylar-fakherian.png"
-          alt="Simurgh — Interactive VR Experience by Aylar Fakherian"
-        >
-
-        <div class="eyebrow">
-          <span class="dot"></span>
-          Research through Design Investigation
-        </div>
-
-        <h1>
-          Simurgh —<br>
-          <span class="hero-title-accent">
-            Interactive VR Experience
-          </span>
-        </h1>
-
-        <p class="hero-subtitle">
-          An immersive Virtual Reality experience exploring how
-          interactive systems can create meaningful encounters with
-          intangible cultural heritage through embodiment, narrative,
-          and digital experience design.
-        </p>
-
-        <div class="hero-meta">
-
-          <span class="tag">
-            Aylar Fakherian
-          </span>
-
-          <span class="tag">
-            Research through Design
-          </span>
-
-          <span class="tag">
-            Virtual Reality
-          </span>
-
-          <span class="tag">
-            Digital Cultural Heritage
-          </span>
-
-        </div>
-
-      </div>
+      <p class="subtitle">
+        Research through Design Investigation by Aylar Fakherian
+      </p>
 
     </header>
 
 
-    <!-- =========================
-         INTRODUCTION
-    ========================= -->
+    <!-- Introduction -->
 
-    <section class="content-section">
+    <section>
 
-      <div class="container grid">
+      <p class="intro">
+        <strong>Simurgh</strong> is an immersive Virtual Reality project
+        investigating how interactive digital experiences can support the
+        transmission of intangible cultural heritage.
+      </p>
 
-        <div>
+      <p>
+        Using the Persian mythological figure of the Simurgh as a case study,
+        the project combines cultural analysis, character design, immersive
+        development, and user evaluation to explore how mythological
+        knowledge can be communicated through interactive media.
+      </p>
 
-          <div class="section-label">
-            Overview
-          </div>
+    </section>
 
-          <h2>
-            From representation<br>
-            to encounter.
-          </h2>
 
+    <!-- Research Question -->
+
+    <section>
+
+      <h2>
+        The Question
+      </h2>
+
+      <p class="research-question">
+        <strong>
+          How can Virtual Reality support the transmission of intangible
+          cultural heritage through immersive interactive experiences?
+        </strong>
+      </p>
+
+    </section>
+
+
+    <!-- Project Overview -->
+
+    <section>
+
+      <h2>
+        Project Overview
+      </h2>
+
+      <div class="meta">
+
+        <div class="meta-card">
+          <strong>Research Approach</strong>
+          Research through Design (RtD) · Practice-Based Research (PBR)
         </div>
 
-        <div>
+        <div class="meta-card">
+          <strong>Research Domain</strong>
+          Intangible Cultural Heritage · Persian Mythology
+        </div>
 
-          <p class="intro">
-            <strong>Simurgh</strong> is a Research through Design
-            investigation exploring how immersive Virtual Reality
-            can support meaningful encounters with intangible
-            cultural heritage.
-          </p>
+        <div class="meta-card">
+          <strong>Medium</strong>
+          Virtual Reality · Unity · Blender · XR
+        </div>
 
-          <p>
-            Rather than simply representing cultural heritage,
-            the project investigates how immersive experiences
-            can support interpretation, engagement, and embodied
-            encounters with cultural narratives.
-          </p>
-
+        <div class="meta-card">
+          <strong>Case Study</strong>
+          The Simurgh in Persian Mythology
         </div>
 
       </div>
@@ -649,401 +569,276 @@
     </section>
 
 
-    <!-- =========================
-         RESEARCH QUESTION
-    ========================= -->
-
-    <section class="content-section">
-
-      <div class="container">
-
-        <div class="section-label">
-          Research Question
-        </div>
-
-        <h2>
-          The question.
-        </h2>
-
-        <p class="research-question">
-
-          <strong>
-            How can immersive Virtual Reality experiences support
-            meaningful encounters with intangible cultural heritage?
-          </strong>
-
-        </p>
-
-      </div>
-
-    </section>
-
-
-    <!-- =========================
-         PROJECT OVERVIEW
-    ========================= -->
-
-    <section class="content-section">
-
-      <div class="container">
-
-        <div class="section-label">
-          Project
-        </div>
-
-        <h2>
-          Project Overview
-        </h2>
-
-        <div class="meta">
-
-          <div class="meta-card">
-
-            <strong>
-              Research Approach
-            </strong>
-
-            Research through Design (RtD)
-
-          </div>
-
-
-          <div class="meta-card">
-
-            <strong>
-              Research Domain
-            </strong>
-
-            Digital Cultural Heritage
-
-          </div>
-
-
-          <div class="meta-card">
-
-            <strong>
-              Medium
-            </strong>
-
-            Virtual Reality · Unity · Blender
-
-          </div>
-
-
-          <div class="meta-card">
-
-            <strong>
-              Status
-            </strong>
-
-            Prototype · Conference Paper Under Review
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- =========================
-         VIDEO 1
-    ========================= -->
+    <!-- Video 1 -->
 
     <section class="video-section">
 
-      <div class="container">
+      <h2>
+        Simurgh — First Encounter
+      </h2>
 
-        <div class="section-label">
-          Documentation
-        </div>
+      <p>
+        A documentation of the immersive VR experience and the user's
+        encounter with the Simurgh character.
+      </p>
 
-        <h2>
-          First Encounter
-        </h2>
+      <div class="video-wrapper">
 
-        <p>
-          A documentation of the first encounter within the
-          immersive Simurgh environment.
-        </p>
-
-        <div class="video-wrapper">
-
-          <iframe
-            src="https://player.vimeo.com/video/1211843738?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
-            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            title="Simurgh — First Encounter | VR Cultural Experience | Aylar Fakherian"
-            allowfullscreen>
-          </iframe>
-
-        </div>
-
-        <p class="video-description">
-          First Encounter — immersive VR experience documentation.
-        </p>
+        <iframe
+          src="https://player.vimeo.com/video/1211843738?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
+          allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          title="Simurgh — First Encounter | VR Cultural Experience | Aylar Fakherian"
+          allowfullscreen>
+        </iframe>
 
       </div>
+
+      <p class="video-description">
+        First Encounter — immersive VR experience documentation.
+      </p>
 
     </section>
 
 
-    <!-- =========================
-         VIDEO 2
-    ========================= -->
+    <!-- Research Exploration -->
 
     <section class="video-section">
 
-      <div class="container">
+      <h2>
+        Research through Design Exploration
+      </h2>
 
-        <div class="section-label">
-          Research Exploration
-        </div>
+      <p>
+        A research-oriented exploration of the Simurgh project, documenting
+        the development of the character, immersive environment, and
+        Research through Design process.
+      </p>
 
-        <h2>
-          Research through Design Exploration
-        </h2>
+      <div class="video-wrapper">
 
-        <p>
-          A research-oriented exploration documenting the development
-          of the immersive experience and its Research through Design
-          approach.
-        </p>
-
-        <div class="video-wrapper">
-
-          <iframe
-            src="https://player.vimeo.com/video/1211521489?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
-            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            title="Simurgh — Research through Design Exploration | Aylar Fakherian"
-            allowfullscreen>
-          </iframe>
-
-        </div>
-
-        <p class="video-description">
-          Research through Design exploration — Simurgh VR project.
-        </p>
+        <iframe
+          src="https://player.vimeo.com/video/1211521489?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
+          allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          title="Simurgh — A Research through Design Exploration in Virtual Reality | Aylar Fakherian"
+          allowfullscreen>
+        </iframe>
 
       </div>
+
+      <p class="video-description">
+        Research through Design exploration — Simurgh VR project.
+      </p>
 
     </section>
 
 
-    <!-- =========================
-         RESEARCH CONTEXT
-    ========================= -->
+    <!-- Research Context -->
 
-    <section class="content-section">
+    <section>
 
-      <div class="container grid">
+      <h2>
+        Research Context
+      </h2>
 
-        <div>
+      <p>
+        Intangible cultural heritage such as myths, legends, oral traditions,
+        and symbolic narratives depends on interpretation, participation,
+        and cultural understanding rather than physical preservation alone.
+      </p>
 
-          <div class="section-label">
-            Context
-          </div>
+      <p>
+        While Virtual Reality has been widely explored for cultural heritage
+        visualization, its use for communicating mythological and symbolic
+        forms of intangible cultural heritage remains comparatively
+        underexplored.
+      </p>
 
-          <h2>
-            Cultural narrative as material.
-          </h2>
-
-        </div>
-
-        <div>
-
-          <p>
-            The Simurgh has existed for centuries across Persian
-            literature, miniature painting, architecture, and
-            collective imagination.
-          </p>
-
-          <p>
-            Rather than digitally reconstructing or simply representing
-            a mythical creature, this project explores how immersive
-            interaction can create new possibilities for engaging
-            with cultural narratives.
-          </p>
-
-          <p>
-            Using the Simurgh as a case study, the project applies
-            <strong>Research through Design (RtD)</strong> and
-            <strong>Practice-Based Research (PBR)</strong> approaches
-            to investigate how culturally informed VR experiences
-            can influence interpretation, engagement, and embodied
-            interaction.
-          </p>
-
-        </div>
-
-      </div>
+      <p>
+        This project addresses this gap through the Persian mythological
+        figure of the <strong>Simurgh</strong>, translating its literary,
+        historical, visual, behavioral, and symbolic characteristics into
+        an interactive VR experience.
+      </p>
 
     </section>
 
 
-    <!-- =========================
-         RESEARCH APPROACH
-    ========================= -->
+    <!-- Design Approach -->
 
-    <section class="content-section">
+    <section>
 
-      <div class="container grid">
+      <h2>
+        Design Approach
+      </h2>
 
-        <div>
+      <p>
+        The project follows an integrated Research through Design workflow
+        connecting cultural research with creative and technical practice.
+      </p>
 
-          <div class="section-label">
-            Method
-          </div>
+      <p>
+        <strong>
+          Cultural Analysis · Character Design · 3D Modeling ·
+          Animation · VR Development · Audio Narrative · User Evaluation
+        </strong>
+      </p>
 
-          <h2>
-            Research through Design.
-          </h2>
-
-        </div>
-
-        <div>
-
-          <p>
-            The project combines:
-          </p>
-
-          <p>
-            <strong>
-              Research through Design (RtD) ·
-              Practice-Based Research (PBR) ·
-              Cultural Narrative Analysis ·
-              Character and Environment Design ·
-              Interactive VR Prototyping ·
-              Qualitative Experience Evaluation
-            </strong>
-          </p>
-
-        </div>
-
-      </div>
+      <p>
+        Literary, historical, and artistic sources were comparatively
+        analyzed to identify recurring visual, behavioral, and symbolic
+        characteristics of the Simurgh. These findings informed the
+        development of the digital character and its integration into the
+        immersive environment.
+      </p>
 
     </section>
 
 
-    <!-- =========================
-         RESEARCH CONTRIBUTION
-    ========================= -->
+    <!-- Experience -->
 
-    <section class="content-section">
+    <section>
 
-      <div class="container grid">
+      <h2>
+        The Experience
+      </h2>
 
-        <div>
+      <p>
+        The VR prototype combines the Simurgh's visual representation,
+        character animation, environmental context, spatial interaction,
+        and literary narration derived from Persian sources.
+      </p>
 
-          <div class="section-label">
-            Contribution
-          </div>
-
-          <h2>
-            Designing immersive cultural experiences.
-          </h2>
-
-        </div>
-
-        <div>
-
-          <p>
-            This project explores an RtD approach for designing
-            immersive cultural experiences by integrating cultural
-            analysis, narrative interpretation, character design,
-            interactive system development, and user experience
-            evaluation.
-          </p>
-
-          <p>
-            The research investigates how Virtual Reality can move
-            beyond passive visualization of heritage and support
-            embodied encounters with symbolic meanings, cultural
-            narratives, and collective imagination.
-          </p>
-
-        </div>
-
-      </div>
+      <p>
+        Users can freely explore the virtual environment and observe the
+        Simurgh from different viewpoints while experiencing synchronized
+        visual, behavioral, and auditory elements.
+      </p>
 
     </section>
 
 
-    <!-- =========================
-         PROTOTYPE
-    ========================= -->
+    <!-- Evaluation -->
 
-    <section class="content-section">
+    <section>
 
-      <div class="container grid">
+      <h2>
+        Evaluation
+      </h2>
 
-        <div>
+      <p>
+        The prototype was evaluated through an exploratory user study
+        involving adolescents, Persian literature scholars, and digital
+        artists.
+      </p>
 
-          <div class="section-label">
-            Prototype
-          </div>
+      <p>
+        Participants completed pre- and post-experience questionnaires and
+        provided qualitative feedback concerning cultural understanding,
+        visual design, animation, presence, immersion, and engagement.
+      </p>
 
-          <h2>
-            Features.
-          </h2>
-
-        </div>
-
-        <div>
-
-          <p>
-            <strong>
-              Interactive Virtual Reality Environment ·
-              Narrative-Driven Exploration ·
-              Environmental Storytelling ·
-              Character-Based Cultural Interaction ·
-              Spatial Interaction ·
-              Immersive Audiovisual Experience
-            </strong>
-          </p>
-
-        </div>
-
-      </div>
+      <p>
+        The evaluation indicated that the experience helped communicate
+        the Simurgh's cultural and symbolic characteristics, corrected
+        common misconceptions, and increased participants' interest in
+        Persian mythology and cultural heritage.
+      </p>
 
     </section>
 
 
-    <!-- =========================
-         EVALUATION
-    ========================= -->
+    <!-- Contribution -->
 
-    <section class="content-section">
+    <section>
 
-      <div class="container grid">
+      <h2>
+        Research Contribution
+      </h2>
 
-        <div>
+      <p>
+        The study proposes an integrated design approach that connects
+        <strong>cultural analysis, character design, VR development,
+        and user evaluation</strong> within a unified Research through
+        Design process.
+      </p>
 
-          <div class="section-label">
-            Evaluation
-          </div>
+      <p>
+        Rather than treating Virtual Reality solely as a visualization
+        technology, the project explores its potential as a medium for
+        communicating intangible cultural heritage through immersive,
+        interactive, and culturally informed experiences.
+      </p>
 
-          <h2>
-            Learning through use.
-          </h2>
+    </section>
+
+
+    <!-- Researcher -->
+
+    <section>
+
+      <h2>
+        Researcher
+      </h2>
+
+      <p>
+        <strong>Aylar Fakherian</strong><br>
+        Human-Centred Designer · Research through Design
+      </p>
+
+      <p>
+        Aylar Fakherian works across Human-Centred Design,
+        Research through Design, interactive systems, immersive experiences,
+        XR, and Digital Cultural Heritage.
+      </p>
+
+    </section>
+
+
+    <!-- Links -->
+
+    <section>
+
+      <h2>
+        Related Work
+      </h2>
+
+      <div class="links">
+
+        <div class="link-card">
+
+          <a
+            href="https://github.com/aylarfakheriyan/Simurgh-RtD"
+            target="_blank"
+            rel="noopener"
+          >
+            GitHub Repository
+          </a>
 
         </div>
 
-        <div>
+        <div class="link-card">
 
-          <p>
-            The prototype was explored through qualitative user
-            sessions focusing on user engagement, sense of immersion,
-            interaction experience, cultural interpretation,
-            and overall experience.
-          </p>
+          <a
+            href="https://www.behance.net/gallery/253057297/04_Simurgh-Interactive-VR-Experience"
+            target="_blank"
+            rel="noopener"
+          >
+            Behance Case Study
+          </a>
 
-          <p>
-            Insights from evaluation informed iterative refinement
-            of the research prototype.
-          </p>
+        </div>
+
+        <div class="link-card">
+
+          <a
+            href="https://vimeo.com/1211521489"
+            target="_blank"
+            rel="noopener"
+          >
+            Vimeo — Research Exploration
+          </a>
 
         </div>
 
@@ -1052,315 +847,65 @@
     </section>
 
 
-    <!-- =========================
-         RESEARCH PERSPECTIVE
-    ========================= -->
+    <!-- Publication -->
 
-    <section class="content-section">
+    <section>
 
-      <div class="container">
+      <h2>
+        Publication
+      </h2>
 
-        <div class="section-label">
-          Perspective
-        </div>
+      <p>
+        <strong>
+          Design and Evaluation of an Interactive Virtual Reality
+          Experience for Transmitting Intangible Cultural Heritage:
+          A Case Study of the Simurgh Myth
+        </strong>
+      </p>
 
-        <h2>
-          Beyond visualization.
-        </h2>
-
-        <p>
-          Rather than asking:
-        </p>
-
-        <p class="research-question">
-          How can Virtual Reality visualize cultural heritage?
-        </p>
-
-        <p>
-          This project explores:
-        </p>
-
-        <p class="research-question">
-
-          <strong>
-            How can immersive experiences participate in the
-            interpretation, engagement, and continued evolution
-            of cultural knowledge?
-          </strong>
-
-        </p>
-
-      </div>
+      <p>
+        Submitted to ArtsIT 2026 · Under Review
+      </p>
 
     </section>
 
 
-    <!-- =========================
-         TECHNOLOGY
-    ========================= -->
+    <!-- Research Areas -->
 
-    <section class="content-section">
+    <section>
 
-      <div class="container">
+      <h2>
+        Research Areas
+      </h2>
 
-        <div class="section-label">
-          Technology
-        </div>
-
-        <h2>
-          Built with.
-        </h2>
-
-        <p>
-          <strong>
-            Unity · Blender · XR Interaction Toolkit ·
-            OpenXR · C# · Git · GitHub
-          </strong>
-        </p>
-
-      </div>
+      <p class="keywords">
+        Virtual Reality · Cultural Transmission ·
+        Intangible Cultural Heritage · Immersive Media ·
+        Research through Design · Practice-Based Research ·
+        Persian Mythology · Interactive Systems ·
+        Character Design · User Experience
+      </p>
 
     </section>
 
 
-    <!-- =========================
-         RESEARCHER
-    ========================= -->
+    <!-- Footer -->
 
-    <section class="content-section">
+    <footer>
 
-      <div class="container grid">
+      <p>
+        © Aylar Fakherian.
+      </p>
 
-        <div>
+      <p>
+        This project is documented as part of an ongoing Research through
+        Design investigation into immersive experiences, XR, and
+        intangible cultural heritage.
+      </p>
 
-          <div class="section-label">
-            Researcher
-          </div>
-
-          <h2>
-            Aylar Fakherian.
-          </h2>
-
-        </div>
-
-        <div>
-
-          <p>
-            <strong>
-              Human-Centred Designer · Research through Design
-            </strong>
-          </p>
-
-          <p>
-            Aylar Fakherian works across Human-Centred Design,
-            Research through Design, interactive systems,
-            immersive experiences, XR, and Digital Cultural Heritage.
-          </p>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- =========================
-         RELATED WORK
-    ========================= -->
-
-    <section class="content-section">
-
-      <div class="container">
-
-        <div class="section-label">
-          Explore
-        </div>
-
-        <h2>
-          Related Work
-        </h2>
-
-        <div class="links">
-
-          <div class="link-card">
-
-            <a
-              href="https://www.behance.net/gallery/253057297/04_Simurgh-Interactive-VR-Experience"
-              target="_blank"
-              rel="noopener"
-            >
-              Visuals ↗
-            </a>
-
-          </div>
-
-
-          <div class="link-card">
-
-            <a
-              href="https://github.com/aylarfakheriyan/Simurgh-RtD"
-              target="_blank"
-              rel="noopener"
-            >
-              Research Repository ↗
-            </a>
-
-          </div>
-
-
-          <div class="link-card">
-
-            <a
-              href="https://www.linkedin.com/in/aylarfakherian/"
-              target="_blank"
-              rel="noopener"
-            >
-              Researcher ↗
-            </a>
-
-          </div>
-
-
-          <div class="link-card">
-
-            <a
-              href="https://vimeo.com/aylarfakherian"
-              target="_blank"
-              rel="noopener"
-            >
-              Vimeo ↗
-            </a>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- =========================
-         PUBLICATION
-    ========================= -->
-
-    <section class="content-section">
-
-      <div class="container grid">
-
-        <div>
-
-          <div class="section-label">
-            Publication
-          </div>
-
-          <h2>
-            Research output.
-          </h2>
-
-        </div>
-
-        <div>
-
-          <p>
-            <strong>
-              Design and Evaluation of an Interactive Virtual Reality
-              Experience for Transmitting Intangible Cultural Heritage:
-              A Case Study of the Simurgh Myth
-            </strong>
-          </p>
-
-          <p>
-            Submitted to ArtsIT 2026 · Under Review
-          </p>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- =========================
-         RESEARCH AREAS
-    ========================= -->
-
-    <section class="content-section">
-
-      <div class="container">
-
-        <div class="section-label">
-          Keywords
-        </div>
-
-        <h2>
-          Research Areas
-        </h2>
-
-        <p class="keywords">
-          Research through Design · Practice-Based Research ·
-          Human-Centred Design · Virtual Reality · XR ·
-          Digital Cultural Heritage · Immersive Experiences ·
-          Interactive Systems · Cultural Engagement ·
-          Embodied Interaction · User Experience
-        </p>
-
-      </div>
-
-    </section>
-
+    </footer>
 
   </main>
-
-
-  <!-- =========================
-       FOOTER
-  ========================= -->
-
-  <footer>
-
-    <div class="container">
-
-      <strong>
-        Simurgh — Interactive VR Experience
-      </strong>
-
-      <div>
-        Research through Design investigation by Aylar Fakherian.
-      </div>
-
-      <div class="footer-links">
-
-        <a
-          href="https://www.behance.net/gallery/253057297/04_Simurgh-Interactive-VR-Experience"
-          target="_blank"
-          rel="noopener"
-        >
-          Visuals
-        </a>
-
-        <a
-          href="https://github.com/aylarfakheriyan/Simurgh-RtD"
-          target="_blank"
-          rel="noopener"
-        >
-          Research
-        </a>
-
-        <a
-          href="https://www.linkedin.com/in/aylarfakherian/"
-          target="_blank"
-          rel="noopener"
-        >
-          About
-        </a>
-
-      </div>
-
-    </div>
-
-  </footer>
-
 
 </body>
 </html>
