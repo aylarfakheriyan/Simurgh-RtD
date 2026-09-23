@@ -22,7 +22,7 @@ https://aylarfakheriyan.github.io/Simurgh-RtD/
 | Research Approach | Research through Design (RtD) |
 | Research Domain | Digital Cultural Heritage |
 | Medium | Virtual Reality (Unity + Blender) |
-| Status | Prototype · Conference Paper Under Review |
+| Status | Prototype · Conference Paper: Accepted at ArtsIT 2026|
 
 ---
 
@@ -34,7 +34,7 @@ https://aylarfakheriyan.github.io/Simurgh-RtD/
 
 # Project Status
 
-**Conference Paper:** Submitted to ArtsIT 2026 *(Under Review)*
+**Conference Paper:** Submitted to ArtsIT 2026 *(Accepted at ArtsIT 2026)*
 
 This repository documents the research process, design iterations, prototype development, and research outputs of the Simurgh project.
 
@@ -180,7 +180,7 @@ https://vimeo.com/1211521489
 
 **Design and Evaluation of an Interactive Virtual Reality Experience for Transmitting Intangible Cultural Heritage: A Case Study of the Simurgh Myth**
 
-Submitted to ArtsIT 2026 *(Under Review)*
+Submitted to ArtsIT 2026 *(Accepted at ArtsIT 2026)*
 
 ---
 
